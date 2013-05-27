@@ -1,0 +1,48 @@
+html, body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#listaMedi{
+	text-align: center;
+	margin: 3% 20%;
+}
+#insertdiv{
+	overflow: auto;
+}
+#insertin{
+	width: 48%;
+	float: left;
+	margin: 0%;
+	margin-right: 4%;
+	margin-bottom: 0.6%;
+}
+#insertbtn{
+	width: 48%;
+	float: left;
+	margin: 0%;
+	margin-top: 0.6%;
+}
+.headertext{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+@media screen and (max-width: 560px){
+	#listaMedi{
+		text-align: center;
+		margin: 3% 0%;
+	}
+}
+
+@media screen and (max-width: 360px){
+	#insertin{
+		width: 100%;
+		margin: 0%;
+	}
+	#insertbtn{
+		width: 100%;
+		margin: 0%;
+	}
+}
